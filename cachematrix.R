@@ -11,6 +11,7 @@
 makeCacheMatrix <- function (x = matrix()) {
     ##initializing the variable that will store the inverted matrix (m)
     m <- NULL
+    #set function takes a new input matrix and resets previous cached inverted matrix (m) back to NULL.
     set <- function (y) {
         x <<- y
         m <<- NULL
